@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct dietko3App: App {
+    @StateObject private var dataController = DataController()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+                .environment(\.managedObjectContext, dataController.container.viewContext)
         }
     }
 }

@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		098218CB2AFFE2CB00B03340 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098218CA2AFFE2CB00B03340 /* MainView.swift */; };
+		098218D02AFFE98700B03340 /* DietKO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 098218CE2AFFE98700B03340 /* DietKO.xcdatamodeld */; };
+		098218D22AFFE9EA00B03340 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098218D12AFFE9EA00B03340 /* DataController.swift */; };
+		098218D42B0110EB00B03340 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098218D32B0110EB00B03340 /* LogView.swift */; };
+		09924CB12AFFDDD700691F72 /* CalorieGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09924CB02AFFDDD700691F72 /* CalorieGauge.swift */; };
 		09CF928D2ABA8BC1001E21E9 /* dietko3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF928C2ABA8BC1001E21E9 /* dietko3App.swift */; };
 		09CF928F2ABA8BC1001E21E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF928E2ABA8BC1001E21E9 /* ContentView.swift */; };
 		09CF92912ABA8BC3001E21E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09CF92902ABA8BC3001E21E9 /* Assets.xcassets */; };
 		09CF92942ABA8BC3001E21E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09CF92932ABA8BC3001E21E9 /* Preview Assets.xcassets */; };
+		09CF929B2ABA8BFE001E21E9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF929A2ABA8BFE001E21E9 /* User.swift */; };
+		09CF929D2ABA8CED001E21E9 /* ContentView+Observed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF929C2ABA8CED001E21E9 /* ContentView+Observed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		098218CA2AFFE2CB00B03340 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		098218CF2AFFE98700B03340 /* DietKO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DietKO.xcdatamodel; sourceTree = "<group>"; };
+		098218D12AFFE9EA00B03340 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		098218D32B0110EB00B03340 /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		09924CB02AFFDDD700691F72 /* CalorieGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieGauge.swift; sourceTree = "<group>"; };
 		09CF92892ABA8BC1001E21E9 /* dietko3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dietko3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09CF928C2ABA8BC1001E21E9 /* dietko3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dietko3App.swift; sourceTree = "<group>"; };
 		09CF928E2ABA8BC1001E21E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		09CF92902ABA8BC3001E21E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09CF92932ABA8BC3001E21E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09CF929A2ABA8BFE001E21E9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		09CF929C2ABA8CED001E21E9 /* ContentView+Observed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView+Observed.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +65,17 @@
 		09CF928B2ABA8BC1001E21E9 /* dietko3 */ = {
 			isa = PBXGroup;
 			children = (
+				09924CB02AFFDDD700691F72 /* CalorieGauge.swift */,
 				09CF928C2ABA8BC1001E21E9 /* dietko3App.swift */,
 				09CF928E2ABA8BC1001E21E9 /* ContentView.swift */,
+				098218D32B0110EB00B03340 /* LogView.swift */,
+				098218CA2AFFE2CB00B03340 /* MainView.swift */,
+				09CF929C2ABA8CED001E21E9 /* ContentView+Observed.swift */,
 				09CF92902ABA8BC3001E21E9 /* Assets.xcassets */,
 				09CF92922ABA8BC3001E21E9 /* Preview Content */,
+				09CF929A2ABA8BFE001E21E9 /* User.swift */,
+				098218CE2AFFE98700B03340 /* DietKO.xcdatamodeld */,
+				098218D12AFFE9EA00B03340 /* DataController.swift */,
 			);
 			path = dietko3;
 			sourceTree = "<group>";
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09CF929D2ABA8CED001E21E9 /* ContentView+Observed.swift in Sources */,
+				098218CB2AFFE2CB00B03340 /* MainView.swift in Sources */,
 				09CF928F2ABA8BC1001E21E9 /* ContentView.swift in Sources */,
+				098218D02AFFE98700B03340 /* DietKO.xcdatamodeld in Sources */,
 				09CF928D2ABA8BC1001E21E9 /* dietko3App.swift in Sources */,
+				098218D22AFFE9EA00B03340 /* DataController.swift in Sources */,
+				09924CB12AFFDDD700691F72 /* CalorieGauge.swift in Sources */,
+				098218D42B0110EB00B03340 /* LogView.swift in Sources */,
+				09CF929B2ABA8BFE001E21E9 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +372,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		098218CE2AFFE98700B03340 /* DietKO.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				098218CF2AFFE98700B03340 /* DietKO.xcdatamodel */,
+			);
+			currentVersion = 098218CF2AFFE98700B03340 /* DietKO.xcdatamodel */;
+			path = DietKO.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 09CF92812ABA8BC1001E21E9 /* Project object */;
 }
